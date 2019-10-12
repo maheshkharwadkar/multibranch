@@ -15,7 +15,7 @@ def getTagversion (String oldtagVersion)
     
     Date date = new Date()
     //println date.getTime()
-    //println date.format( 'yyyy-MM-ddHH:mm:ss.S' )
+/    //println date.format( 'yyyy-MM-ddHH:mm:ss.S' )
     String newtimetag = date.format( 'yyyyMMdd-HHmm' ).toString()
     //println strtimetag
     //timetag= timetag.replaceAll(":","-")
