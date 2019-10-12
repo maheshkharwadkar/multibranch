@@ -14,13 +14,16 @@ def getTagversion (String oldtagVersion)
     currmonth = (now.get(Calendar.MONTH) +1)
     
     Date date = new Date()
-    //println date.getTime()
+     println date.getTime()
     //println date.format( 'yyyy-MM-ddHH:mm:ss.S' )
     String newtimetag = date.format( 'yyyyMMdd-HHmm' ).toString()
     //println strtimetag
     //timetag= timetag.replaceAll(":","-")
     
+	
     
+	
+	
     if (currmonth==month)
     {
         
