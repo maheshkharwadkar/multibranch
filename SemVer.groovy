@@ -9,7 +9,8 @@ def getTagversion (String oldtagVersion)
     timetag = versionParts[2].toString()
     this.month = timetag.substring(4,6).toInteger()
     
-    
+
+
     Calendar now = Calendar.getInstance();
     currmonth = (now.get(Calendar.MONTH) +1)
     
